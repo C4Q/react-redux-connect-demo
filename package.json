@@ -4,7 +4,7 @@
   "description": "Scaffolding for React, Node, Express, Sequelize projects",
   "main": "start.js",
   "scripts": {
-    "start": "npm test & webpack --watch & nodemon start.js",
+    "start": "webpack --watch & nodemon start.js",
     "test": "mocha --watch"
   },
   "keywords": [],
@@ -26,7 +26,9 @@
     "pg-hstore": "^2.3.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "react-redux": "^5.0.2",
     "react-router": "^3.0.0",
+    "redux": "^3.6.0",
     "sequelize": "^3.27.0",
     "webpack": "^1.13.3",
     "webpack-livereload-plugin": "^0.9.0"
